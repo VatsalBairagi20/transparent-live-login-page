@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-position: center;
+    /* opacity: 0.7; */
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: rgb(238, 231, 231);
+    width: 25rem;
+    border-radius: 10px;
+    padding: 5em 2rem;
+    box-shadow: 0px 0px 20px 0px rgb(245, 245, 245);
+    border: 1px solid rgb(255, 255, 255);
+    /* margin: 100px 1rgb(246, 243, 243); */
+}
+
+.login-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.username,
+.userpassword {
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    color: rgb(255, 250, 250);
+    background: none;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    width: 15rem;
+    font-size: 12px;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+input {
+    background: transparent;
+    border: none
+}
+
+.loginBtn {
+    background: transparent;
+    border: 2px solid rgb(236, 247, 236);
+    padding: 1rem 3rem;
+    border-radius: 6rem;
+    text-decoration: underline;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 40px;
+}
+
+.loginBtn:hover {
+    background: rgba(254, 255, 254, 0.308);
+    border: 2px solid rgb(255, 255, 255);
+}
